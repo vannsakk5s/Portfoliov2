@@ -7,7 +7,7 @@ import { Component, OnInit, OnDestroy, signal } from '@angular/core';
   styleUrl: './hero.css',
 })
 export class Hero implements OnInit, OnDestroy {
-  roles = ['Web Developer', 'UI/UX Designer', 'Full-Stack Developer'];
+  roles = ['Web Developer', 'UI/UX Designer', 'Full-Stack Developer', 'DevOps Engineer'];
   currentText = signal('');
   
   private loopNum = 0;
