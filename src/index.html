@@ -2,29 +2,88 @@
 <html lang="en" class="dark scroll-smooth">
 <head>
   <meta charset="utf-8">
-  <title>MyPortfolio</title>
-  <base href="/">
+
+  <!-- Primary SEO -->
+  <title>Vann Sak | Full-Stack Web Developer</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Vann Sak, a Full-Stack Web Developer specializing in Angular, Spring Boot, ASP.NET Core, APIs, databases and cloud deployment."
+  >
+
+  <meta name="author" content="Vann Sak">
+  <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <base href="/">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.vannsak.site/">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="iconP.ico">
-  <!-- Google Fonts: Inter for modern clean look -->
+
+  <!-- Open Graph: Facebook, LinkedIn and Telegram -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vann Sak">
+  <meta property="og:title" content="Vann Sak | Full-Stack Web Developer">
+  <meta
+    property="og:description"
+    content="Explore the projects, skills and experience of Vann Sak, a Full-Stack Web Developer."
+  >
+  <meta property="og:url" content="https://www.vannsak.site/">
+
+  <!-- X / Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vann Sak | Full-Stack Web Developer">
+  <meta
+    name="twitter:description"
+    content="Explore the projects, skills and experience of Vann Sak, a Full-Stack Web Developer."
+  >
+
+  <!-- Google Site Name -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Vann Sak",
+    "alternateName": [
+      "Vann Sak Portfolio",
+      "vannsak.site"
+    ],
+    "url": "https://www.vannsak.site/"
+  }
+  </script>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
     tailwind.config = {
       darkMode: 'class',
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Inter', 'sans-serif'],
+            sans: ['Inter', 'sans-serif']
           }
         }
       }
-    }
+    };
   </script>
 </head>
-<body class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 transition-colors duration-300 antialiased font-sans">
+
+<body
+  class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 transition-colors duration-300 antialiased font-sans"
+>
   <app-root></app-root>
 </body>
 </html>
